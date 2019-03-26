@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         btn_move_activity_data.setOnClickListener{
             val intent = Intent(this, MoveWithDataActivity::class.java)
             intent.putExtra("Username","Bedjo Banget")
-            intent.putExtra("password",123456)
+            intent.putExtra("password",1234567890)
             startActivity(intent)
         }
         btn_dial_number.setOnClickListener {
